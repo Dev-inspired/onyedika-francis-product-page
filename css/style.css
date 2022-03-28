@@ -3,17 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
-#nav-bar{
+
+#navb-ar  {
     position: fixed;
-    
-}
+    display: flex;
+    justify-content: flex-end;
+    background-color: #be3144;
+    top:0;
+    left:0;
+    width: 100%;
+} 
+
+  #nav-bar a {
+   
+    float: right;
+    color: #d62121;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;  
+    margin-right: 40px;  
+} 
 
 @media only screen and (max-width: 1200px){
     body {
         margin: 0px;
     }
-}
-
-#video-section {
-    display: flex;
 }
