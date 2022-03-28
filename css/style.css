@@ -3,8 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
+#header img{
+    width: 2rem;
+}
+#nav-bar{
+=======
 
 #navb-ar  {
+>>>>>>> d70bc06bee6c3180ceb15d6a47dbd2db3f1b1f58
     position: fixed;
     display: flex;
     justify-content: flex-end;
