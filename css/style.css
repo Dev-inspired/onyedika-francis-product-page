@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+#header img{
+    width: 2rem;
+}
 #nav-bar{
     position: fixed;
     
